@@ -5,8 +5,14 @@ import './Menu.css';
 function Menu({ onClose }) {
   return (
     <div className="menu">
-      {/* Menu content */}
-      <button onClick={onClose}>Close</button>
+      <h1 className="menu-title">תפריט</h1> {/* Menu title in Hebrew */}
+      <img src={process.env.PUBLIC_URL + '/collegeSrc.png'} alt="Close" onClick={onClose} className='closeBtn'/>
+      <ul className="menu-list">
+        <li>אפשרות 1</li>
+        <li>אפשרות 2</li>
+        <li>אפשרות 3</li>
+        {/* Add more menu options as needed */}
+      </ul>
     </div>
   );
 }
