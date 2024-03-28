@@ -13,27 +13,30 @@
 }
 
 .menu-title {
-  font-size: 24px; /* Larger title font size */
+  font-size: 9vw; /* Larger title font size */
   color: white;
-  margin-bottom: 20px; /* Add spacing below the title */
+  margin-bottom: 7vh; /* Add spacing below the title */
+  margin-top: 12vh;
+  margin-right: 4vw;
+  text-align: right;
+
 }
 
 .menu-list {
   list-style-type: none;
   padding: 0;
-  margin-top: 20px; /* Add spacing above the first option */
+  margin-top: 2vh; /* Add spacing above the first option */
+ 
 }
 
 .menu-list li {
   color: white;
   direction: rtl; /* Right-to-left text direction */
-  margin-bottom: 20px; /* Adjust spacing between options */
-  border-bottom: 1px solid white; /* Add a line underneath */
-  padding: 10px 0; /* Increase padding for each option */
-}
+  margin-bottom: 3vh; /* Adjust spacing between options */
+  border-bottom: 0.5vh solid white; /* Add a line underneath */
+  padding: 1.5vh 0; /* Increase padding for each option */
+  text-align: center;
 
-.menu-list li:first-child {
-  border-top: 1px solid white; /* Add a line above the first option */
 }
 
 .closeBtn {

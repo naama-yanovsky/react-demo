@@ -1,0 +1,41 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Katarina&display=swap');
+
+.home-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow boxes to wrap onto multiple lines */
+  justify-content: center;
+  align-items: flex-start; /* Align items to the top */
+  height: calc(100vh - 60vw); /* Adjust height to exclude header height and increase margin */
+  margin-top: 40vw; /* Ensure content starts below the header and increase margin */
+  position: relative; /* Relative positioning for absolute children */
+}
+
+.title {
+  font-family: 'Katarina'; /* Use Katarina font */
+  font-size: 9vw; /* Adjust font size as needed */
+  color: #001f3f; /* Dark blue color */
+  margin-bottom: 7vw; /* Add some space between title and grey boxes */
+  width: 100%; /* Make the title take up full width */
+}
+
+.grey-box {
+  width: 30vw;
+  height: 15vh;
+  background-color: #ccc;
+  margin: 10px;
+  border-radius: 8px; /* Round corners */
+}
+
+/* Adjust the width for smaller screens */
+@media (max-width: 30vw) {
+  .grey-box {
+    width: 80vw;
+  }
+}
+
+.header {
+  position: absolute; /* Fixed position at the top */
+  top: 0;
+  width: 100%;
+}
