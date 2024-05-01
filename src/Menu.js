@@ -14,6 +14,14 @@ function Menu({ onClose }) {
         <li>אוגן איתן - תרחיש ייחוס משיקי</li>
         <li>אפשרות 2</li>
         <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
+        <li>אפשרות 3</li>
         {/* Add more menu options as needed */}
       </ul>
     </div>

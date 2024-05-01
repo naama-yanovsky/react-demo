@@ -21,6 +21,7 @@
   .grey-box {
     width: 30vw;
     height: 15vh;
+    font-size: 4vw;
     background-color: #ccc;
     margin: 22px;
     font-family: "Heebo", sans-serif;
