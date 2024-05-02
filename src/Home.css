@@ -15,7 +15,7 @@
     font-size: 12vw; /* Adjust font size as needed */
     color: #0c3f72; /* Dark blue color */
     margin-bottom: 7vw; /* Add some space between title and grey boxes */
-    width: 100%; /* Make the title take up full width */
+    width: 100%; /* Make the title take up full width */     
   }
   
   .grey-box {
