@@ -13,7 +13,7 @@ function Diagram() {
         <p className="black-frame-text">מנכל הרשות\ ר"מט</p>
       </div>
       <img src={process.env.PUBLIC_URL + '/orange-removebg.png'} className="orange" alt="logo" />
-      <img src={process.env.PUBLIC_URL + '/blue-removebg.png'} className="blue" alt="logo" />
+      <img src={process.env.PUBLIC_URL + '/blue-removebg.png'} className="blue" alt="logo" />     
       {/* Add your diagram content here */}
     </div>
   );
